@@ -1346,6 +1346,20 @@ figure.highlight,
   padding: 0.7em 0.7em 0 0.7em;
   max-width: 40%; }
 
+/* Media Queries */
+@media (min-width: 1200px) {
+  .toc-article {
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    width: 10%;
+    transform: translateY(-50%);
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    margin: 1.1em 0 0 2em;
+    padding: 0.7em 0.7em 0 0.7em;
+    max-width: 40%; } }
+
 .toc-title {
   font-size: 120%; }
 
@@ -1358,6 +1372,10 @@ figure.highlight,
     line-height: 1.8em; }
     #toc .toc li {
       list-style-type: none; }
+    #toc .toc li.active .toc-link {
+      background-color: #f6f6f6;
+      color: var(--accent);
+      border-left: solid 2px var(--accent); }
   #toc .toc-child {
     margin-left: 1em;
     padding-left: 0; }

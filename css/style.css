@@ -1586,6 +1586,8 @@ html[data-dark='true'] {
   html[data-dark='true'] img {
     filter: hue-rotate(180deg) contrast(100%) invert(100%);
     -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%); }
+  html[data-dark='true'] .wormhole-img {
+    content: url("https://img.foreverblog.cn/wormhole_1.gif"); }
 
 .darkmode-toggle {
   background: #a2a2a2;

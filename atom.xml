@@ -6,7 +6,7 @@
   <link href="http://suradabang.github.io/atom.xml" rel="self"/>
   
   <link href="http://suradabang.github.io/"/>
-  <updated>2022-07-06T01:49:27.296Z</updated>
+  <updated>2022-07-06T01:08:38.787Z</updated>
   <id>http://suradabang.github.io/</id>
   
   <author>
@@ -15,31 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>谢谢你</title>
-    <link href="http://suradabang.github.io/posts/202207_61282.html"/>
-    <id>http://suradabang.github.io/posts/202207_61282.html</id>
-    <published>2022-07-05T00:53:51.000Z</published>
-    <updated>2022-07-06T01:49:27.296Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"></summary>
-        
-      
-    
-    
-    
-    <category term="123" scheme="http://suradabang.github.io/categories/123/"/>
-    
-    
-    <category term="代码块测试" scheme="http://suradabang.github.io/tags/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>

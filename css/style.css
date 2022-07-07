@@ -159,6 +159,17 @@ div {
         -webkit-box-shadow: none;
         -moz-box-shadow: none;
         box-shadow: none; }
+    #sidebar .widget .author-info {
+      text-align: center; }
+      #sidebar .widget .author-info a.info-avatar img {
+        border-radius: 50%;
+        padding: 4px;
+        width: 96px;
+        height: 96px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+      #sidebar .widget .author-info a.info-icon {
+        font-size: 25px; }
 
 /* title for search result or tagged posts*/
 .label-title {
@@ -570,7 +581,7 @@ pre {
   font-style: italic;
   font-size: 20px;
   line-height: 0;
-  color: #E7E7E5;
+  color: #444;
   position: relative;
   top: -4px; }
 
@@ -1604,3 +1615,55 @@ html[data-dark='true'] {
   display: flex;
   justify-content: center;
   align-items: center; }
+
+/* about link */
+.link-items {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding: 0px 0.5rem;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px; }
+  .link-items .link-item {
+    display: inline-flex;
+    --primary-color: #444; }
+    .link-items .link-item .link-url {
+      display: inline-flex;
+      text-align: center;
+      justify-self: center;
+      line-height: 1.5;
+      width: 15rem;
+      color: var(--primary-color, #000);
+      padding: 0.5rem 1rem;
+      margin: 0.5rem;
+      transition: all 0.2s ease 0s; }
+      .link-items .link-item .link-url .link-left {
+        display: inline-block;
+        line-height: 0; }
+        .link-items .link-item .link-url .link-left .link-avatar {
+          width: 4rem;
+          height: 4rem;
+          background-color: white;
+          border-radius: 50%;
+          transition: all 0.5s ease 0s;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+      .link-items .link-item .link-url .link-info {
+        padding-left: 0.6rem;
+        display: block; }
+        .link-items .link-item .link-url .link-info .link-blog {
+          font-size: 1.24rem;
+          font-weight: 700;
+          margin: 0.42rem 0px; }
+        .link-items .link-item .link-url .link-info .link-desc {
+          font-size: 0.8rem;
+          font-weight: normal;
+          margin-top: 0.5rem;
+          width: 10.5rem;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden; }

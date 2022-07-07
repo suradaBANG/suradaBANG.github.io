@@ -1667,3 +1667,24 @@ html[data-dark='true'] {
           white-space: nowrap;
           text-overflow: ellipsis;
           overflow: hidden; }
+
+.custom-container.tip {
+  --tip-border-color:#009400;
+  --tip-bg-color:#e6f6e6;
+  --tip-title-color: #003100;
+  border-color: var(--tip-border-color);
+  background: var(--tip-bg-color);
+  margin: 1rem 0;
+  padding: 0.25rem 1rem;
+  border-left-width: 0.3rem;
+  border-left-style: solid;
+  border-radius: 0.5rem;
+  color: inherit; }
+  .custom-container.tip .custom-container-title {
+    color: var(--tip-title-color);
+    position: relative;
+    font-weight: 600; }
+  .custom-container.tip p {
+    line-height: 1.5;
+    display: block;
+    font-size: 16px; }

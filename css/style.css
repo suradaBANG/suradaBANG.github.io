@@ -1360,11 +1360,6 @@ figure.highlight,
 /* Media Queries */
 @media (min-width: 1200px) {
   .toc-article {
-    position: fixed;
-    top: 50%;
-    left: 0%;
-    width: 10%;
-    transform: translateY(-50%);
     border: 1px solid #bbb;
     border-radius: 7px;
     margin: 1.1em 0 0 2em;
@@ -1656,7 +1651,7 @@ html[data-dark='true'] {
         padding-left: 0.6rem;
         display: block; }
         .link-items .link-item .link-url .link-info .link-blog {
-          font-size: 1.24rem;
+          font-size: 1rem;
           font-weight: 700;
           margin: 0.42rem 0px; }
         .link-items .link-item .link-url .link-info .link-desc {
@@ -1674,8 +1669,8 @@ html[data-dark='true'] {
   --tip-title-color: #003100;
   border-color: var(--tip-border-color);
   background: var(--tip-bg-color);
-  margin: 1rem 0;
-  padding: 0.25rem 1rem;
+  margin: 0 0;
+  padding: 0.1rem 1rem;
   border-left-width: 0.3rem;
   border-left-style: solid;
   border-radius: 0.5rem;
@@ -1686,5 +1681,4 @@ html[data-dark='true'] {
     font-weight: 600; }
   .custom-container.tip p {
     line-height: 1.5;
-    display: block;
-    font-size: 16px; }
+    display: block; }
